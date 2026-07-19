@@ -1,0 +1,4 @@
+method,seed,best_validation_expression,best_validation_fitness,best_validation_success_rate,best_validation_mean_node_ratio,best_validation_mean_time_ratio,operator_count,evolution_time_seconds,final_structural_diversity,final_behavioral_diversity,globally_selected
+GP,42,"max(((((B * S) * 3) * 3) * 3), M)",0.5880343388176252,1.0,0.6890943765762505,1.5359183981360698,5,1932.6447303999994,0.525,0.425,0
+GP,43,(((V * S) * B) * S),0.6553334896512099,1.0,0.6846606376772177,0.7060591782795901,3,2268.4645894999994,0.65,0.575,1
+GP,44,"((S + B) + ((B + min(abs(K), min(S, B))) + B))",0.630650112914799,1.0,0.7855338223207275,0.8222783696786397,7,3268.8927382,0.775,0.625,0

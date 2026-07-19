@@ -1,0 +1,60 @@
+{
+  "method": "GP",
+  "prefix": "(* (* (* V S) B) S)",
+  "infix": "(((V * S) * B) * S)",
+  "tree": {
+    "symbol": "*",
+    "children": [
+      {
+        "symbol": "*",
+        "children": [
+          {
+            "symbol": "*",
+            "children": [
+              {
+                "symbol": "V",
+                "children": []
+              },
+              {
+                "symbol": "S",
+                "children": []
+              }
+            ]
+          },
+          {
+            "symbol": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "symbol": "S",
+        "children": []
+      }
+    ]
+  },
+  "node_count": 7,
+  "operator_count": 3,
+  "depth": 4,
+  "fitness": {
+    "fitness": 0.6553334896512099,
+    "loss": 0.525940632962666,
+    "success_rate": 1.0,
+    "mean_node_ratio": 0.6846606376772177,
+    "mean_time_ratio": 0.7060591782795901,
+    "mean_solution_gap": 0.16360529556650247,
+    "complexity_ratio": 0.0967741935483871,
+    "operator_count": 3
+  },
+  "evolution_time_seconds": 2268.4645894999994,
+  "selection_set": "validation",
+  "selected_seed": 43,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "mean_evolution_time_seconds": 2490.000686033333,
+  "total_evolution_time_seconds": 7470.002058099999,
+  "best_training_fitness": 0.6466635534350413
+}

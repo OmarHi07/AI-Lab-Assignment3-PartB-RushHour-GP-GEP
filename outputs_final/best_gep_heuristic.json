@@ -1,0 +1,90 @@
+{
+  "method": "GEP",
+  "prefix": "(* (* (* S V) (* C V)) S)",
+  "infix": "(((S * V) * (C * V)) * S)",
+  "tree": {
+    "symbol": "*",
+    "children": [
+      {
+        "symbol": "*",
+        "children": [
+          {
+            "symbol": "*",
+            "children": [
+              {
+                "symbol": "S",
+                "children": []
+              },
+              {
+                "symbol": "V",
+                "children": []
+              }
+            ]
+          },
+          {
+            "symbol": "*",
+            "children": [
+              {
+                "symbol": "C",
+                "children": []
+              },
+              {
+                "symbol": "V",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "symbol": "S",
+        "children": []
+      }
+    ]
+  },
+  "node_count": 9,
+  "operator_count": 4,
+  "depth": 4,
+  "fitness": {
+    "fitness": 0.6931734891485065,
+    "loss": 0.4426402850870693,
+    "success_rate": 1.0,
+    "mean_node_ratio": 0.6068134057697756,
+    "mean_time_ratio": 0.35085898641214713,
+    "mean_solution_gap": 0.28079279556650244,
+    "complexity_ratio": 0.12903225806451613,
+    "operator_count": 4
+  },
+  "evolution_time_seconds": 600.6330304000003,
+  "chromosome": [
+    "*",
+    "*",
+    "S",
+    "*",
+    "*",
+    "S",
+    "V",
+    "C",
+    "V",
+    "D",
+    "#2",
+    "#2",
+    "L",
+    "V",
+    "S",
+    "D",
+    "V"
+  ],
+  "head_length": 8,
+  "tail_length": 9,
+  "selection_set": "validation",
+  "selected_seed": 44,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "mean_evolution_time_seconds": 736.8145379000003,
+  "total_evolution_time_seconds": 2210.443613700001,
+  "best_training_fitness": 0.660246410812361
+}

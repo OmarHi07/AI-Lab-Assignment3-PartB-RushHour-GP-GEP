@@ -1,0 +1,4 @@
+method,seed,best_validation_expression,best_validation_fitness,best_validation_success_rate,best_validation_mean_node_ratio,best_validation_mean_time_ratio,operator_count,evolution_time_seconds,final_structural_diversity,final_behavioral_diversity,globally_selected
+GEP,42,((5 + ((B * V) - L)) + (D * S)),0.6352127308984973,1.0,0.880931105842341,0.5339518141441824,5,1086.626615000001,0.2,0.2,0
+GEP,43,(B + (S + (B + B))),0.6525389006424157,1.0,0.8347714098353198,0.4977524683792134,3,523.1839682999998,0.225,0.225,0
+GEP,44,(((S * V) * (C * V)) * S),0.6931734891485065,1.0,0.6068134057697756,0.35085898641214713,4,600.6330304000003,0.575,0.45,1
